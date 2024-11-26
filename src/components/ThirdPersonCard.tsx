@@ -9,7 +9,7 @@ import thirdPersonImg from '@/assets/images/image-kira.jpg';
 
 function ThirdPersonCard() {
   return (
-    <Card className='col-span-1 lg:row-span-2 border-none bg-white'>
+    <Card className='col-span-1 row-start-5 row-end-6 lg:row-span-2 border-none bg-white'>
       <CardHeader className='flex-row gap-x-5 items-center space-y-0 p-8 pb-4'>
         <img
           src={thirdPersonImg}
